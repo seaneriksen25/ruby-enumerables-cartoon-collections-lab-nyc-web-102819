@@ -8,7 +8,7 @@ end
 def summon_captain_planet# code an argument here
   # Your code here
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
-  planeteer_calls.collect { |x| x + "!".upcase}
+  planeteer_calls.collect { |x| x.upcase + "!"}
   summon_captain_planet(planeteer_calls)
 end
 
